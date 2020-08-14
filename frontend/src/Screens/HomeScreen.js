@@ -13,6 +13,7 @@ function HomeScreen (props){
         return() => {
             //
         };
+        // eslint-disable-next-line
     }, [])
    
    return loading ? <div>Loading...</div> : 

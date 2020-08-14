@@ -19,6 +19,7 @@ function CartScreen(props){
         if(productId){
             dispatch(addToCart(productId, qty));
         }
+        // eslint-disable-next-line
     }, []);
 
     const checkoutHandler = () =>{
